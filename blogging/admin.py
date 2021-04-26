@@ -15,4 +15,4 @@ class PostAdmin(admin.ModelAdmin):
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    exclude = ['post',]
+    exclude = ['posts',]
